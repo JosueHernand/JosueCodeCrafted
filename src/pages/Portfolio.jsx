@@ -1,10 +1,10 @@
 import Project from "../components/Project"
-import ReelMeal from "../../assets/images/reelmeal.png"
-import EzBank from "../../assets/images/ezbank.png"
-import WebFlowText from "../../assets/images/jate.png"
-import Passlock from "../../assets/images/passlock.png"
-import WeatherTracker from "../../assets/images/weatherapp.png"
-import CalendarApp from "../../assets/images/calendarapp.png"
+import ReelMeal from "../assets/images/reelmeal.png"
+import EzBank from "../assets/images/ezbank.png"
+import WebFlowText from "../assets/images/jate.png"
+import Passlock from "../assets/images/passlock.png"
+import WeatherTracker from "../assets/images/weatherapp.png"
+import CalendarApp from "../assets/images/calendarapp.png"
 
 export default function Portfolio() {
   const websites = [

@@ -1,4 +1,4 @@
-import myResume from '../../assets/pdf/Resume.pdf';
+import myResume from '../assets/pdf/Resume.pdf';
 
 export default function Resume() {
   return (
