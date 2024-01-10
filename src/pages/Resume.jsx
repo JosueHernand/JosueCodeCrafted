@@ -1,10 +1,12 @@
+import myResume from '../../assets/pdf/Resume.pdf';
+
 export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
-      <a href={require ('../../assets/pdf/Resume.pdf')} download='Resune.pdf'>
-        <h2>Download My Resume</h2>
-      </a>
+      <p>Download My
+      <a href={myResume} download='Resume.pdf'> Resume</a>
+      </p>
 
       <h2>Front-end Proficiencies</h2>
       <ul>
