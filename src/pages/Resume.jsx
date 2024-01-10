@@ -2,7 +2,7 @@ export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
-      <a href={require ('../../assets/pdf')} download='Resune.pdf'>
+      <a href={require ('../../assets/pdf/Resume.pdf')} download='Resune.pdf'>
         <h2>Download My Resume</h2>
       </a>
 
