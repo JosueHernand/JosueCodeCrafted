@@ -3,7 +3,7 @@
   --bluegrey: #B0BEC5;
   --lightgrey: #78909C;
   --accent-color: #546e7a;
-  --text-dark-grey: #414141;
+  --dark-grey: #3e3e3e;
 }
 
 .custom-navbar {
@@ -27,11 +27,19 @@
   color: var(--lightgrey);
 }
 
-.text-color {
-  color: var(--text-dark-grey);
+.color {
+  color: var(--dark-grey);
 }
 
-p.text-dark-grey {
-  color: var(--text-dark-grey);
+p.dark-grey {
+  color: var(--dark-grey);
   font-size: 20px;
+}
+
+.iconStyle {
+  color: var(--dark-grey);
+}
+
+.githubIcon:hover {
+  color: var(--bluegrey);
 }
