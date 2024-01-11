@@ -11,7 +11,7 @@
 }
 
 .custom-heading {
-  color: var(--white);
+  color: var(--dark-grey);
 }
 
 .nav-link.active {
@@ -19,7 +19,7 @@
 }
 
 .nav-link {
-  color: var(--white);
+  color: var(--dark-grey);
 }
 
 .nav-link:hover {
