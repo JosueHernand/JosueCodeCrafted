@@ -1,13 +1,12 @@
 :root {
-  --white : #FFFFFF;
-  --bluegrey: #B0BEC5;
-  --lightgrey: #78909C;
+  --beige: #F5F5DC;
+  --skyblue: #8dd1f0;
   --accent-color: #546e7a;
   --dark-grey: #3e3e3e;
 }
 
 .custom-navbar {
-  background-color: var(--bluegrey);
+  background-color: var(--beige);
   padding: 5px;
 }
 
@@ -16,7 +15,7 @@
 }
 
 .nav-link.active {
-  color: var(--lightgrey);
+  color: var(--skyblue);
 }
 
 .nav-link {
@@ -24,7 +23,7 @@
 }
 
 .nav-link:hover {
-  color: var(--lightgrey);
+  color: var(--skyblue);
 }
 
 .color {
@@ -41,5 +40,31 @@ p.dark-grey {
 }
 
 .githubIcon:hover {
-  color: var(--bluegrey);
+  color: var(--skyblue);
+}
+
+.styleBox {
+  width: 300px;
+  height: 50px;
+  font-size: 18px;
+}
+
+.messageBox{
+  width: 330px;
+  height: 170px;
+  font-size: 18px;
+}
+
+.btn-primary {
+  background-color: rgb(181, 179, 179);
+  color: var(--dark-grey);
+  border: 1px solid rgb(181, 179, 179);
+  margin-top: 130px;
+  padding: 10px 15px 10px 15px;
+
+  &:hover {
+  background-color: var(--skyblue);
+  color: var(--dark-grey);
+  border: 1px solid #2E3B4E;
+  };
 }

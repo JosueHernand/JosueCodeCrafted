@@ -48,8 +48,9 @@ export default function Contact() {
       
       <form onSubmit={handleFormSubmit}>
 
-        <div>
+        <div className='mb-3'>
           <input
+          className='styleBox'
           value={name}
           name='name'
           onChange={handleInputChange}
@@ -59,8 +60,9 @@ export default function Contact() {
           />
         </div>
 
-        <div>
+        <div className='mb-3 styleBox'>
           <input
+          className='styleBox'
           value={email}
           name='email'
           onChange={handleInputChange}
@@ -70,8 +72,9 @@ export default function Contact() {
           />
           </div>
 
-        <div>
+        <div className='mb-3 styleBox'>
           <textarea
+          className='messageBox'
           value={message}
           name='message'
           onChange={handleInputChange}
@@ -80,7 +83,7 @@ export default function Contact() {
           required={true}
           />
         </div>
-        <button type='submit'>Submit</button>
+        <button type='submit' className='btn btn-primary'>Submit</button>
       </form>
       {errorMessage && (
         <div>

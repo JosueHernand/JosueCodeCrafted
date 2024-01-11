@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const customStyle = {
-  backgroundColor: '#78909C',
+  backgroundColor: '#946f3a',
 };
 
 export default function Footer() {
