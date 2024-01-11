@@ -2,6 +2,8 @@
   --white : #FFFFFF;
   --bluegrey: #B0BEC5;
   --lightgrey: #78909C;
+  --accent-color: #546e7a;
+  --text-dark-grey: #414141;
 }
 
 .custom-navbar {
@@ -23,4 +25,13 @@
 
 .nav-link:hover {
   color: var(--lightgrey);
+}
+
+.text-color {
+  color: var(--text-dark-grey);
+}
+
+p.text-dark-grey {
+  color: var(--text-dark-grey);
+  font-size: 20px;
 }
