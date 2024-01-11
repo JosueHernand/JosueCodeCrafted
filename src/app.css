@@ -1,0 +1,26 @@
+:root {
+  --white : #FFFFFF;
+  --bluegrey: #B0BEC5;
+  --lightgrey: #78909C;
+}
+
+.custom-navbar {
+  background-color: var(--bluegrey);
+  padding: 5px;
+}
+
+.custom-heading {
+  color: var(--white);
+}
+
+.nav-link.active {
+  color: var(--lightgrey);
+}
+
+.nav-link {
+  color: var(--white);
+}
+
+.nav-link:hover {
+  color: var(--lightgrey);
+}
