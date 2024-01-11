@@ -5,7 +5,7 @@ export default function About() {
     <div className='text-color p-3'>
       <h1 className='mb-4'>About Me</h1>
       <img src={avatar} alt="Josue Hernandez Avatar" className='mb-4' />
-      <p className="text-dark-grey d-flex justify-content-end mb-4">
+      <p className="dark-grey d-flex justify-content-end mb-4">
       I'm a dedicated learner and interest in the world of technology. 
       Growing up, I was always interested in technology and gaming which 
       drew me towards the world of computer science. Nowadays I'm living 
