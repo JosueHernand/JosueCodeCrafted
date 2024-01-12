@@ -24,10 +24,10 @@ export default function Portfolio() {
     },
     {
       id: 3,
-      title: 'WebFlowText',
-      link: 'https://webflowtext.onrender.com/',
-      archive: 'https://github.com/JosueHernand/WebFlowText',
-      image: WebFlowText,
+      title: 'Calender App',
+      link: 'https://josuehernand.github.io/CalendarApp/',
+      archive: 'https://github.com/JosueHernand/CalendarApp',
+      image: CalendarApp,
     },
     {
       id: 4,
@@ -43,21 +43,26 @@ export default function Portfolio() {
       archive: 'https://github.com/JosueHernand/WeatherTracker',
       image: WeatherTracker,
     },
+    
     {
       id: 6,
-      title: 'Calender App',
-      link: 'https://josuehernand.github.io/CalendarApp/',
-      archive: 'https://github.com/JosueHernand/CalendarApp',
-      image: CalendarApp,
+      title: 'WebFlowText',
+      link: 'https://webflowtext.onrender.com/',
+      archive: 'https://github.com/JosueHernand/WebFlowText',
+      image: WebFlowText,
     },
   ]
 
   return (
     <div>
-      <h1>Portfolio</h1>
-      {websites.map((task) => (
-        <Project task={task} key={task.id} />
-      ))}
+      <h1 className="mb-3">Portfolio</h1>
+      <div className="row">
+        {websites.map((task) => (
+          <div className="col-md-6" key={task.id}>
+            <Project task={task} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
