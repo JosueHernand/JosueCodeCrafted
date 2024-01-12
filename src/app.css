@@ -43,7 +43,7 @@ p.dark-grey {
   color: var(--dark-grey);
 }
 
-.githubIcon:hover {
+.iconStyle:hover {
   color: var(--skyblue);
 }
 
