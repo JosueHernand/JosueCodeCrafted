@@ -5,6 +5,10 @@
   --dark-grey: #3e3e3e;
 }
 
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .custom-navbar {
   background-color: var(--beige);
   padding: 5px;
