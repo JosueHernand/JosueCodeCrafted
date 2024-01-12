@@ -2,7 +2,7 @@ import myResume from '../assets/pdf/Resume.pdf';
 
 export default function Resume() {
   return (
-    <div>
+    <div className='fs-5'>
       <h1>Resume</h1>
       <p>Download My
       <a href={myResume} download='Resume.pdf'> Resume</a>
