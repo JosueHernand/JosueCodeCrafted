@@ -9,6 +9,8 @@ about bootstrap.
 
 ## Usage
 
+Deployed Application: https://main--thriving-puffpuff-691167.netlify.app/  
+
 ![Portfolio](src/assets/images/homepage.png)
 
 ## Credits
