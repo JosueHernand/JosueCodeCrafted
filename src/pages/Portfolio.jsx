@@ -4,7 +4,7 @@ import EzBank from "../assets/images/ezbank.png"
 import WebFlowText from "../assets/images/jate.png"
 import Passlock from "../assets/images/passlock.png"
 import WeatherTracker from "../assets/images/weatherapp.png"
-import CalendarApp from "../assets/images/calendarapp.png"
+import CalendarApp from "../assets/images/calendarApp.png"
 
 export default function Portfolio() {
   const websites = [
